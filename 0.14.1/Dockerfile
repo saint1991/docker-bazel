@@ -8,5 +8,6 @@ RUN apt-get update -y && \
 
 ADD https://github.com/bazelbuild/bazel/releases/download/${BAZEL_VERSION}/bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh /tmp/installer.sh
 RUN chmod +x /tmp/installer.sh && \
+    sync && \
     /tmp/installer.sh && \
     rm /tmp/installer.sh
