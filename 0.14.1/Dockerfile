@@ -10,6 +10,7 @@ RUN groupadd --gid 3434 bazel && \
     echo 'bazel ALL=NOPASSWD: ALL' >> /etc/sudoers.d/bazel && \
     apt-get update -y && \
     apt-get install -y \
+        build-essential \
         sudo \
         unzip
 
