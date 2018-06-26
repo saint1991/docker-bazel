@@ -11,6 +11,7 @@ RUN groupadd --gid 3434 bazel && \
     apt-get update -y && \
     apt-get install -y \
         build-essential \
+        ca-certificates \
         sudo \
         unzip
 
