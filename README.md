@@ -11,6 +11,8 @@ Installing [Bazel](https://bazel.build) on [Ubuntu 16.04](https://hub.docker.com
 Images are built against the latest version for each minor release.  
 Following tags are available for now:  
 
+- 0.17.2
+- 0.17.1
 - 0.16.1
 - 0.16.0
 - 0.15.2
